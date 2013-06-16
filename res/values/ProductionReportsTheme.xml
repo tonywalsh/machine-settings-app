@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="ProductionReport" parent="@android:style/Theme.Holo">
+        <item name="android:actionBarSize">70dp</item>
+    </style>
+    <style name="ProductionReportTable" parent="@style/ProductionReport">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:background">#666666</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="TableRow" parent="@style/ProductionReportTable">
+		<item name="android:layout_height">fill_parent</item>
+		<item name="android:layout_marginBottom">1dp</item>
+    </style>        
+    <style name="BasicTableCell">
+        <item name="android:background">#FFFFFF</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+    </style>
+    <style name="TableHeader" parent="@style/BasicTableCell">
+        <item name="android:background">#19293f</item>
+        <item name="android:textColor">#FFFFFF</item>
+         <item name="android:textStyle">bold</item>
+         <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item> 
+    </style>    
+    <style name="TableHeaderRight" parent="@style/TableHeader">
+        <item name="android:gravity">center_vertical|right</item>
+    </style>
+    <style name="TableHeaderSetAct" parent="@style/TableHeader">
+        <item name="android:minWidth">100dp</item>
+    </style> 
+    <style name="TableHeaderSetActHidden" parent="@style/TableHeaderSetAct">
+        <item name="android:visibility">gone</item>
+    </style>
+    <style name="TableCell" parent="@style/BasicTableCell">
+        <item name="android:background">#000000</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="RecordTitle" parent="@style/TableCell">
+        <item name="android:textSize">24sp</item>
+        <item name="android:minWidth">150dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+    <style name="RecordUnit" parent="@style/TableCell">
+        <item name="android:background">#000000</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>                                                
+        <item name="android:textColor">#6793af</item>
+    </style>
+    <style name="TextEditCell" parent="@style/TableCell">
+        <item name="android:background">#EEEEEE</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:hint">0</item>
+    </style>
+    <style name="checkpointRowSeparator">
+        <item name="android:background">#6793af</item>
+        <item name="android:textColor">#222222</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+</resources>

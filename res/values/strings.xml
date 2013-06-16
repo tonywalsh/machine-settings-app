@@ -1,0 +1,165 @@
+<resources>
+
+    <string name="app_name">ProductionReports</string>
+    <string name="add_report_btn">Start a New Report</string>
+    <string name="add_note_btn">Create a New Note</string>
+    <string name="add_note_hint">Tap + to Add Note</string>
+    <string name="report_search_hint">Find Reports</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Extrusion Settings (QR14A)</string>
+    <string name="set">Set</string>
+    <string name="act">Act</string>
+    <string name="check_title">Check</string>
+    <string name="setting">Setting</string>
+    <string name="units">Units</string>
+    <string name="empty">-</string>
+    <string name="empty_set">Set</string>
+    <string name="empty_act">Actual</string>
+    <string name="no_reports">No Reports</string>
+    <string name="new_checkpoint_btn_txt">New Checkpoint</string>
+    <string name="new_checkpoint_dialog_title">New Checkpoint</string>
+    <string name="confirm_new_checkpoint">Creating a new checkpoint will mean closing the current checkpoint.  No more changes can be made.   Are you sure?</string>
+    <string name="ok_new_checkpoint">Create</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_machine_settings">Machine Settings</string>
+    <string name="title_activity_line_index">Production Lines</string>
+    <string name="select_line_prompt">Select Line</string>
+    <string name="select_product_prompt">Enter Product</string>
+    <string name="select_colour_prompt">Select Colour</string>
+    <string name="select_operator_prompt">Select Operator</string>
+    <string name="line_select_label">Extruder</string>
+    <string name="new_checkpoint">New Checkpoint</string>
+    <string name="product_select_label">Product</string>
+    <string name="colour_select_label">Colour</string>
+    <string name="operator_select_label">Operator</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_create_report">Create Report</string>
+    <string name="btn_create_note">Create Note</string>
+    <string-array name="operators">
+		<item>Alan Keating</item>
+		<item>Anthony Crowley</item>
+		<item>Brian O\'Callaghan</item>
+		<item>Dan Lyons</item>
+		<item>John Kelleher</item>
+		<item>John Lyons</item>
+		<item>Michael McCarthy</item>
+		<item>Pierce O\'Mahony</item>
+		<item>Terry Lotty</item>
+		<item>Tim Lyons</item>
+		<item>Tom Galvin</item>
+	</string-array>	
+    <string-array name="production_lines">
+		<item>BF 2</item>
+		<item>BF 3</item>
+		<item>BF 4</item>
+		<item>BF 5</item>
+		<item>BF 6</item>
+		<item>BF 7</item>
+		<item>BF 8</item>
+		<item>BF 9</item>
+		<item>BF 10</item>
+		<item>BF 11</item>
+		<item>BF 12</item>
+		<item>BF 13</item>						
+	</string-array>
+	<string-array name="colours">
+	    <item>White</item>
+	    <item>Black (BL)</item>
+	   	<item>Leather Brown (LB)</item>
+	   	<item>Wine Red (WR)</item>
+	   	<item>Rustic Green (GREEN)</item>
+	   	<item>Regal Blue (RB)</item>
+	   	<item>Storm Grey (SG)</item>
+	   	<item>Dark Grey (DG)</item>
+	   	<item>Pale Gold (PG)</item>
+	   	<item>Sable (SAB)</item>
+	   	<item>Argyl Brown (AB)</item>
+	   	<item>Colonial Blue (CLB)</item>
+	   	<item>Pale Blue (PB)</item>
+	   	<item>Sand (SAND)</item>
+	</string-array>
+	<string-array name="products">
+        <item>ETB1</item>
+        <item>ETD1</item>
+        <item>ETP1</item>
+        <item>ETS1</item>
+        <item>F104</item>
+        <item>F105</item>
+        <item>F106</item>
+        <item>F107</item>
+        <item>F1074</item>
+        <item>F108</item>
+        <item>F110</item>
+        <item>F112</item>
+        <item>F354P</item>
+        <item>F410</item>
+        <item>F410P</item>
+        <item>F605P</item>
+        <item>F912</item>
+        <item>F912OLD</item>
+        <item>FA45</item>
+        <item>FA45-4</item>
+        <item>FA640</item>
+        <item>FA65</item>
+        <item>FA660</item>
+        <item>FA690</item>
+        <item>FA90</item>
+        <item>FB28</item>
+        <item>FB405</item>
+        <item>FB455</item>
+        <item>FC150</item>
+        <item>FC150E</item>
+        <item>FC150E4</item>
+        <item>FC220</item>
+        <item>FCD220</item>
+        <item>FCD300</item>
+        <item>FCD300/2</item>
+        <item>FCF170</item>
+        <item>FCF170E</item>
+        <item>FCP250</item>
+        <item>FD28-2</item>
+        <item>FD28-4</item>
+        <item>FDG</item>
+        <item>FF20</item>
+        <item>FL354</item>
+        <item>FL454</item>
+        <item>FLC355</item>
+        <item>FLC455</item>
+        <item>FLF404</item>
+        <item>FLP404</item>
+        <item>FM107</item>
+        <item>FMC455</item>
+        <item>FMD405</item>
+        <item>FMF305</item>
+        <item>FML405</item>
+        <item>FMO405</item>
+        <item>FMR405</item>
+        <item>FMS354</item>
+        <item>FMS404</item>
+        <item>FMS410</item>
+        <item>FMXD405</item>
+        <item>FMXS</item>
+        <item>FO354</item>
+        <item>FO405</item>
+        <item>FO429</item>
+        <item>FOG</item>
+        <item>FOR405</item>
+        <item>FP450</item>
+        <item>FQ12</item>
+        <item>FQ19</item>
+        <item>FR15</item>
+        <item>FRG</item>
+        <item>FRP</item>
+        <item>FSF250</item>
+        <item>FSF254</item>
+        <item>FSG</item>
+        <item>FSO405</item>
+        <item>FSP</item>
+        <item>FV100</item>
+        <item>FZR30</item>
+        <item>GPB305</item>
+        <item>GPB405</item>
+        <item>GPB605</item>
+    </string-array>
+	
+</resources>
